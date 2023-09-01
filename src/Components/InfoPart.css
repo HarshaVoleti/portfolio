@@ -1,0 +1,65 @@
+
+
+.info-part {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 170px 100px 170px  100px ;
+
+  
+
+}
+
+
+/* css for hello there */
+.hello{
+    font-size: 40px;
+    height: 40px;
+    margin: 0px;
+    margin-bottom: 10px;
+    font-family: Poppins;
+}
+  
+.text {
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+
+    
+
+}
+  
+/* css for the name */
+.name{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: Poppins;
+    height: 60px;
+    margin: 0px 0px 10px 0px;
+    color: #42446E;
+}
+
+/* css for the designation app developer */
+.des{
+    font-size: 40px;
+    color: #666;
+    font-family: Poppins;
+    height: 40px;
+    margin: 0px;
+}
+.image {
+
+}
+  
+  
+.image img{
+    flex: 1;
+    justify-content: center;
+    width: 349px;
+    height: 349px;
+    flex-shrink: 0;
+    border-radius: 230px;
+    border: 9px #42446E solid;
+}
+  

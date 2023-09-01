@@ -1,0 +1,96 @@
+.projects{
+    margin: 80px;
+    /* background-color: aqua; */
+}
+
+.title{
+    /* background-color:bisque; */
+    text-align: center;
+    margin: 0px;
+}
+
+.scrollable-list{
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    gap: 20px;
+    width: 100%;
+    padding: 15px;
+    overflow-y: scroll;
+    /* white-space: nowrap; */
+    /* overflow-x: hidden; */
+}
+
+.web-card{
+    min-width: 273px ;
+    height: auto;
+    justify-content: space-between;
+    /* background-color: burlywood; */
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.20);
+}
+.mob-card{
+    min-width: 300px ;
+    height: 250px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.20);
+}
+
+.web-img{
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    height: 170px;
+}
+
+.mobimg{
+    border-radius: 20px;
+}
+
+.webdata{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.mobdata{
+    padding: 15px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.mtech{
+    margin: 0px;
+    font-size: 10px;
+}
+
+
+.mdesc{
+    max-height: 5 * 1em; /* Three lines at 1.2em line height (adjust as needed) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  /* margin: 2px; */
+}
+
+.wdesc{
+    max-height: 3 * 1em; /* Three lines at 1.2em line height (adjust as needed) */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  /* margin: 2px; */
+}
+
+
+.ptitle{
+    font-size: 18px;
+    margin: 0px;
+}
